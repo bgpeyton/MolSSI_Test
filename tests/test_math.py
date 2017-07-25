@@ -14,3 +14,9 @@ def test_add():
 def test_mult():
     assert mst.mult(9, 2) == 18
     assert mst.mult(4, 12) == 48
+
+
+def test_div():
+    assert mst.div(6, 3) == 2
+    assert mst.div(0, 9) == 0
+#    assert mst.div(2, 0) == ???

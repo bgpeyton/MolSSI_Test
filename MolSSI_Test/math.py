@@ -14,6 +14,15 @@ def add(A, B):
 
 def mult(A, B):
     """
-    Function to multiply two values A and B, use ass "mult(A, B)"
+    Function to multiply two values A and B, use as "mult(A, B)"
     """
     return A * B
+
+
+def div(A, B):
+    """
+    Function to divide two values A and B (A / B), use as "div(A, B)"
+    """
+    if (B == 0):
+        raise Exception("Don't divide by zero!")
+    return A / B
