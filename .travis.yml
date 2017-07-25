@@ -21,6 +21,8 @@ before_install:
   - pip install pytest pytest-cov
   - pip install numpy
 #  - pip install codecov
+
+install:
   - pip install -e .
 
 script:
